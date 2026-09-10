@@ -1,0 +1,2 @@
+# Esercizio 2 — Il sito di una libreria
+Un sito con più pagine. Crea un sito informativo per una libreria usando una volta ciascuno res.send(), res.json() e res.type('html').send(). Le rotte devono essere coerenti (almeno una condivide lo stesso dato di un'altra, es. array di libri). Includi una rotta di ricerca che legga il titolo dalla query string: se esiste mostra la scheda in JSON, altrimenti un messaggio chiaro.
