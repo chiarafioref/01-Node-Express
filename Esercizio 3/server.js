@@ -52,13 +52,13 @@ app.get("/ricerca", (req, res) => {
     const cittaTrovata = citta.find((citta) => {
         return citta.nome.toLowerCase() === nomeCitta.toLowerCase();
     });
-});
 
-if (cittaTrovata) {
-    res.json(cittaTrovata);
-} else {
-    res.status(404).send("Città non trovata");
-};
+    if (cittaTrovata) {
+        res.json(cittaTrovata);
+    } else {
+        res.status(404).send("Città non trovata");
+    };
+});
 
 // Avvio il server
 app.listen(PORT, () => {
