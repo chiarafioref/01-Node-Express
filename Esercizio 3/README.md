@@ -1,0 +1,2 @@
+# Esercizio 3 — Guida turistica dell'Italia
+Una guida con ricerca. Crea una guida turistica dell'Italia con più rotte e una /itinerario che personalizzi la risposta in base alla città nella query string. La città va cercata in un array di città italiane: se la trovi mostra la scheda, altrimenti "città non trovata". Usa una volta ciascuno send, json e type('html').send.
