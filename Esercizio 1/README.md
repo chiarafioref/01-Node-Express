@@ -1,0 +1,2 @@
+# Esercizio 1 — Scaffolding manuale: il nostro primo server (esercizio guida)
+Primo server. Crea manualmente lo scaffolding di un progetto Node.js/Express senza generatori automatici. Il server deve rispondere su http://localhost:3000/ con un messaggio di benvenuto. Passaggi: cartella in VS Code, pnpm init, pnpm add express, ES Modules + script dev con node --watch, server.js (importa Express, crea l'app, scegli porta, GET /, avvia) + .gitignore. Commenta i passaggi principali.
